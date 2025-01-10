@@ -1,0 +1,74 @@
+/* font style */
+*{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* upper area style */
+.header-title{
+    font-weight: bold;
+    font-size: 32px;
+    margin: 31px 160px;
+}
+
+.login-btn{
+    border: 2px solid #006A50;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 24px 160px;
+}
+body{
+    background-color: #F5F5F5;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+/* banner style */
+.banner{
+    display: flex;
+    margin: 20px 160px;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    gap: 64px;
+}
+.banner-greetings{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.btn-primary{
+    padding: 17px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+}
+
+.banner-content{
+    padding-top: 117px;
+    padding-bottom: 117px;
+    padding-left: 59.99px;
+}
+
+.pic-1{
+    padding: 80px 64px 60px;
+}
