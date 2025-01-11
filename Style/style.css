@@ -23,7 +23,7 @@
     margin: 24px 160px;
 }
 body{
-    background-color: #F5F5F5;
+    background-color: #F1F1F3;
 }
 nav{
     display: flex;
@@ -84,13 +84,9 @@ nav ul li{
 .section-description{
     font-size: 16px;
     margin: 24px 160px;
+    color: rgba(14, 14, 14, 0.7);
 }
-/* main{
-    max-width: 1280px;
-    margin: 0 auto;
-} */
 /* vision of future section styles */
-
 
 .vision{
     padding: 32px;
@@ -103,8 +99,15 @@ nav ul li{
     margin: 0 160px;
     justify-content: space-between;
 }
+
+.vision-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
 .vision-description{
     width: 346px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .vision-1{
     background-color: rgba(84, 144, 245, 0.2);
@@ -135,4 +138,40 @@ nav ul li{
 
 .btn-3{
     background-color: #FFC239;
+}
+
+/* Quote section styles */
+
+.quote{
+    margin: 0 160px;
+    margin-top: 32px;
+    border: none;
+    border-color: rgba(14, 14, 14, 0.8);
+    background-color: white;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 1.8% 20%;
+}
+
+.quote-container{
+    padding: 48px 24px;
+}
+
+.quote-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.yunus{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.about-yunus{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
 }
