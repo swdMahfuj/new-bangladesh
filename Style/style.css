@@ -63,7 +63,9 @@ nav ul li{
     background-color: #006A50;
     color: white;
 }
-
+.btn-primary:hover{
+    background-color: rgba(251, 92, 77, 1);
+}
 .banner-content{
     padding-top: 117px;
     padding-bottom: 127px;
@@ -131,15 +133,21 @@ nav ul li{
 .btn-1{
     background-color: #5490F5;
 }
-
+.btn-1:hover{
+    background-color: rgba(210, 94, 93, 1);
+}
 .btn-2{
     background-color: #09A15C;
 }
-
+.btn-2:hover{
+    background-color: rgb(253, 163, 127);
+}
 .btn-3{
     background-color: #FFC239;
 }
-
+.btn-3:hover{
+    background-color:  rgba(216, 158, 238, 1);
+}
 /* Quote section styles */
 
 .quote{
@@ -250,6 +258,9 @@ nav ul li{
     font-weight: 400;
     font-size: 18px;
 }
+.read-btn:hover{
+    background-color: rgba(163, 164, 153, 1);
+}
 
 /* Donate section style */
 .donate{
@@ -332,7 +343,7 @@ input[type="text"]{
     border: none;
 }
 input[type="text"]::placeholder{
-    padding: 0 422px;
+    padding: 0 380px;
     font-size: 20px;
 }
 .donate-btn{
@@ -344,5 +355,64 @@ input[type="text"]::placeholder{
     border-radius: 8px;
     font-weight: 400;
     font-size: 18px;
-    margin: 32px 740px 0 740px;
+    margin: 32px 720px 0 720px;
+}
+.donate-btn:hover{
+    background-color:rgba(100, 103, 9, 1) ;
+}
+
+/* Newsletter Subscription Style */
+.subscribe-news{
+    background-color: #C6E4D6;
+    margin: 80px 160px 0 160px;
+    border-radius: 24px;
+}
+
+.subscribe-box{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 265px ;
+}
+.subscribe-title{
+    text-align: center;
+    font-weight:bold;
+    font-size: 40px;
+    padding-top: 80px;
+}
+.subscribe-description{
+    width: 622px;
+    text-align: center;
+    padding: 0 329px;
+    color: rgba(14, 14, 14, 0.7);
+}
+#email-input{
+    width: 600px;
+    height: 54px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+.subscribe-btn{
+    border: none;
+    background-color: #006A50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    width: 150px;
+    height: 56px;
+}
+.subscribe-btn:hover{
+    background-color: #45A049;
+}
+input[type="email"]::placeholder{
+    padding: 18px 403px 18px 40px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.promise{
+    text-align: center;
+    padding: 0 329px 80px 329px;
+    color: rgba(14, 14, 14, 0.7);
 }
